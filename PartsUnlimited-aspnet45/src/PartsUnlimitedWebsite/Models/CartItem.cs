@@ -6,8 +6,11 @@ namespace PartsUnlimited.Models
     // My first change too be committed to git
     public class CartItem : ILineItem
     {
+        // My second change
         [Key]
         public int CartItemId { get; set; }
+
+        // My third change
 
         [Required]
         public string CartId { get; set; }
